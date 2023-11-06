@@ -1,5 +1,17 @@
 body {
-    background-color: red;
+    background: #F5F3F7;
+}
+
+.corner-color {
+    width: 510px;
+    height: 1018px;
+    flex-shrink: 0;
+    border-radius: 255px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    position: absolute;
+    top: -28em;
+    left: -25em;
+    z-index: -25;
 }
 
 .app {
@@ -9,6 +21,9 @@ flex-shrink: 0;
 border-radius: 30px;
 background: #FFF;
 box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.25);
+z-index: 5000;
+position: relative;
+left: 5em;
 }
 
 .app-header-upper {
@@ -94,11 +109,17 @@ border: 1px solid #FFF;
     flex-shrink: 0;
     border-radius: 10px 10px 4px 10px;
     background: #EEE5F4;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
-.user-chat-primary-itm:first-of-type {
+.user-chat-primary-itm:first-of-type,.user-chat-secondary-itm:nth-of-type(2) {
     margin-bottom: 0.65em;
+}
+
+.user-chat-primary-itm:nth-of-type(2) {
+    position: relative;
+    bottom: 2.6em;
+    right: 0.25em;
 }
 
 .chat-txt {
@@ -111,10 +132,173 @@ border: 1px solid #FFF;
     line-height: 11px;
 }
 
-.chat-list-left {
+.chat-list-left,.chat-list-right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     margin-left: 15px;
+}
+
+.chat-list-right {
+    margin: 25px 15px auto auto;
+    align-items: flex-end;
+    position: relative;
+    bottom: 3.8em;
+}
+
+.dog-img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+}
+
+.user-chat-secondary-itm {
+    width: 128px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 4px 10px;
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    padding-left: 15px;
+    background: #EEE5F4;
+}
+
+.user-chat-secondary-itm:nth-of-type(2),.user-chat-secondary-itm:nth-of-type(3) {
+    position: relative;
+    top: 0.45em;
+}
+
+.user-chat-primary-itm:last-of-type {
+    margin: 2.3em auto auto 0.45em;
+}
+
+.user-primary-final {
+    padding: 5px 2px 15px 15px;
+    position: relative;
+    bottom: 2.6em;
+    left: 10px;
+}
+
+.half-hour-walk,.full-hour-walk {
+    width: 160px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 4px 10px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    position: relative;
+}
+
+.time-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+    bottom: 2.5em;
+}
+
+.time-selection:first-of-type {
+    margin-bottom: 0.5em;
+}
+
+.time-selection {
+    width: 160px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 4px 10px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-selection svg {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #E472FF;
+    margin-right: 0.65em;
+}
+
+.time-txt {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    margin-right: 5em;
+}
+
+.price-txt {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11px;
+}
+
+form {
+    width: 213px;
+    height: 33.909px;
+    flex-shrink: 0;
+    border-radius: 16.954px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 2em;
+    bottom: 1.5em;
+}
+
+.submit {
+    width: 213px;
+    height: 33.909px;
+    flex-shrink: 0;
+    border-radius: 16.954px;
+    background: #F5F3F7;
+    padding-left: 0.8em;
+    border: none;
+}
+
+form svg {
+    z-index: 500;
+    width: 25px;
+    flex-shrink: 0;
+    position: relative;
+    right: 2em;
+    top: 1em;
+}
+
+.app-main {
+    position: relative;
+    bottom: 0.65em;
+}
+
+.title {
+    color: #3E2753;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title-txt {
+    color: #A39DA9;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
