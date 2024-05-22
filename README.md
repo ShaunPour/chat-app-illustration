@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository URL](https://github.com/DarkPhoenixNinja92/chat-app-illustration)
-- Live Site URL: [Github Pages Live Site](https://darkphoenixninja92.github.io/chat-app-illustration/)
+- Solution URL: [Github Repository URL](https://github.com/ShaunPour/chat-app-illustration)
+- Live Site URL: [Github Pages Live Site](https://ShaunPour.github.io/chat-app-illustration/)
 
 ## My process
 
@@ -49,5 +49,5 @@ play around with css animation a little bit to make the chat bubbles animate in 
 ## Author
 
 - Website - [Shaun Pour](https://www.scpour.com)
-- Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
+- Frontend Mentor - [@ShaunPour](https://www.frontendmentor.io/profile/ShaunPour)
 - Twitter - [@Dark_Ninja92](https://www.twitter.com/Dark_Ninja92)
