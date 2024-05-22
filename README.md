@@ -49,5 +49,5 @@ play around with css animation a little bit to make the chat bubbles animate in 
 ## Author
 
 - Website - [Shaun Pour](https://www.scpour.com)
-- Frontend Mentor - [@ShaunPour](https://www.frontendmentor.io/profile/ShaunPour)
+- Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
 - Twitter - [@Dark_Ninja92](https://www.twitter.com/Dark_Ninja92)
